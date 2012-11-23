@@ -1,0 +1,12 @@
+N:\project\Projects\vss\WorkerRole1\bin\Debug\WorkerRole1.dll.config
+N:\project\Projects\vss\WorkerRole1\bin\Debug\WorkerRole1.dll
+N:\project\Projects\vss\WorkerRole1\bin\Debug\WorkerRole1.pdb
+N:\project\Projects\vss\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+N:\project\Projects\vss\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+N:\project\Projects\vss\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+N:\project\Projects\vss\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+N:\project\Projects\vss\WorkerRole1\obj\Debug\WorkerRole1.dll
+N:\project\Projects\vss\WorkerRole1\obj\Debug\WorkerRole1.pdb
+N:\project\Projects\vss\WorkerRole1\bin\Debug\SimpleHttpServer.dll
+N:\project\Projects\vss\WorkerRole1\bin\Debug\SimpleHttpServer.pdb
+N:\project\Projects\vss\WorkerRole1\obj\Debug\WorkerRole1.csprojResolveAssemblyReference.cache

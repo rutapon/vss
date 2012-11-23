@@ -1,0 +1,8 @@
+N:\project\Projects\vss\WindowsAzure1\bin\Release\ServiceConfiguration.cscfg
+N:\project\Projects\vss\WindowsAzure1\bin\Release\ServiceDefinition.csdef
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\Microsoft.WindowsAzure.Configuration.dll
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\Microsoft.WindowsAzure.Diagnostics.dll
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\Microsoft.WindowsAzure.StorageClient.dll
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\WorkerRole1.dll
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\WorkerRole1.dll.config
+N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\WorkerRole1.pdb

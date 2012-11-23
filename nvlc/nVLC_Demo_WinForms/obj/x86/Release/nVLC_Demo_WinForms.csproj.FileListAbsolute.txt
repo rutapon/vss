@@ -1,0 +1,32 @@
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.exe.config
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.exe
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Declarations.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Implementation.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\LibVlcWrapper.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\NLog.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Declarations.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Implementation.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\LibVlcWrapper.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.csprojResolveAssemblyReference.cache
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.Form1.resources
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.Properties.Resources.resources
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.csproj.GenerateResource.Cache
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.exe
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.pdb
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.exe.config
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.exe
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\nVLC_Demo_WinForms.pdb
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Declarations.dll
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Implementation.dll
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\LibVlcWrapper.dll
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\NLog.dll
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Declarations.pdb
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\Implementation.pdb
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\bin\x86\Release\LibVlcWrapper.pdb
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.csprojResolveAssemblyReference.cache
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.Form1.resources
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.Properties.Resources.resources
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.csproj.GenerateResource.Cache
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.exe
+L:\VLC\nvlc_sources\Sources\nVLC_Demo_WinForms\obj\x86\Release\nVLC_Demo_WinForms.pdb

@@ -1,0 +1,9 @@
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\LibVlcWrapper\bin\Release\LibVlcWrapper.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\LibVlcWrapper\bin\Release\LibVlcWrapper.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\LibVlcWrapper\obj\Release\LibVlcWrapper.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\LibVlcWrapper\obj\Release\LibVlcWrapper.pdb
+L:\VLC\nvlc_sources\Sources\LibVlcWrapper\bin\Release\LibVlcWrapper.dll
+L:\VLC\nvlc_sources\Sources\LibVlcWrapper\bin\Release\LibVlcWrapper.pdb
+L:\VLC\nvlc_sources\Sources\LibVlcWrapper\obj\Release\LibVlcWrapper.csprojResolveAssemblyReference.cache
+L:\VLC\nvlc_sources\Sources\LibVlcWrapper\obj\Release\LibVlcWrapper.dll
+L:\VLC\nvlc_sources\Sources\LibVlcWrapper\obj\Release\LibVlcWrapper.pdb

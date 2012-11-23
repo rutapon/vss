@@ -1,0 +1,20 @@
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\Implementation.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\Implementation.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\Declarations.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\LibVlcWrapper.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\NLog.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\Declarations.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\bin\Release\LibVlcWrapper.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\obj\Release\Implementation.csprojResolveAssemblyReference.cache
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\obj\Release\Implementation.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Implementation\obj\Release\Implementation.pdb
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\Implementation.dll
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\Implementation.pdb
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\Declarations.dll
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\LibVlcWrapper.dll
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\NLog.dll
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\Declarations.pdb
+L:\VLC\nvlc_sources\Sources\Implementation\bin\Release\LibVlcWrapper.pdb
+L:\VLC\nvlc_sources\Sources\Implementation\obj\Release\Implementation.csprojResolveAssemblyReference.cache
+L:\VLC\nvlc_sources\Sources\Implementation\obj\Release\Implementation.dll
+L:\VLC\nvlc_sources\Sources\Implementation\obj\Release\Implementation.pdb

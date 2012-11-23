@@ -1,0 +1,10 @@
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Declarations\bin\Release\Declarations.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Declarations\bin\Release\Declarations.pdb
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Declarations\obj\Release\Declarations.csprojResolveAssemblyReference.cache
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Declarations\obj\Release\Declarations.dll
+D:\_Programming Data\code project\vlc\nvlc_sources\Sources\Declarations\obj\Release\Declarations.pdb
+L:\VLC\nvlc_sources\Sources\Declarations\bin\Release\Declarations.dll
+L:\VLC\nvlc_sources\Sources\Declarations\bin\Release\Declarations.pdb
+L:\VLC\nvlc_sources\Sources\Declarations\obj\Release\Declarations.csprojResolveAssemblyReference.cache
+L:\VLC\nvlc_sources\Sources\Declarations\obj\Release\Declarations.dll
+L:\VLC\nvlc_sources\Sources\Declarations\obj\Release\Declarations.pdb
