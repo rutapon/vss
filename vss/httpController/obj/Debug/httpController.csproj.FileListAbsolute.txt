@@ -1,0 +1,5 @@
+L:\VSS Clound\vss\vss\httpController\bin\Debug\httpController.dll
+L:\VSS Clound\vss\vss\httpController\bin\Debug\httpController.pdb
+L:\VSS Clound\vss\vss\httpController\obj\Debug\httpController.dll
+L:\VSS Clound\vss\vss\httpController\obj\Debug\httpController.pdb
+L:\VSS Clound\vss\vss\httpController\obj\Debug\httpController.csprojResolveAssemblyReference.cache

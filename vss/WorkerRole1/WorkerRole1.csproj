@@ -55,12 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleHttpServer.cs" />
     <Compile Include="WorkerRole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\httpController\httpController.csproj">
+      <Project>{fd7bb21a-9a7d-4e8b-94e4-974f71603075}</Project>
+      <Name>httpController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\vlcStreammer\vlcStreammer.csproj">
+      <Project>{45ffd47c-5d41-491e-91e3-23eb252cb6cf}</Project>
+      <Name>vlcStreammer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

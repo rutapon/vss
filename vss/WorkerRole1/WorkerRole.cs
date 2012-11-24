@@ -4,11 +4,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading;
-using Bend.Util;
+using httpController;
 using Microsoft.WindowsAzure;
 using Microsoft.WindowsAzure.Diagnostics;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using Microsoft.WindowsAzure.StorageClient;
+using vlcStreammer;
 
 namespace WorkerRole1
 {
@@ -23,6 +24,8 @@ namespace WorkerRole1
             Thread thread = new Thread(new ThreadStart(httpServer.listen));
             thread.Start();
             //return 0;
+
+            Class1.vlcSave();
 
             // This is a sample worker implementation. Replace with your logic.
             Trace.WriteLine("WorkerRole1 entry point called", "Information");

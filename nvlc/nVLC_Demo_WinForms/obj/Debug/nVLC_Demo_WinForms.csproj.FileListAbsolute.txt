@@ -1,0 +1,3 @@
+L:\VSS Clound\vss\nvlc\nVLC_Demo_WinForms\obj\Debug\nVLC_Demo_WinForms.csprojResolveAssemblyReference.cache
+L:\VSS Clound\vss\nvlc\nVLC_Demo_WinForms\obj\Debug\nVLC_Demo_WinForms.Form1.resources
+L:\VSS Clound\vss\nvlc\nVLC_Demo_WinForms\obj\Debug\nVLC_Demo_WinForms.csproj.GenerateResource.Cache

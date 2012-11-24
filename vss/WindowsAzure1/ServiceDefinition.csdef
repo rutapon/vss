@@ -9,5 +9,8 @@
     <Endpoints>
       <InputEndpoint name="http" protocol="tcp" port="8080" />
     </Endpoints>
+    <LocalResources>
+      <LocalStorage name="localStorage" cleanOnRoleRecycle="false" sizeInMB="1024" />
+    </LocalResources>
   </WorkerRole>
 </ServiceDefinition>

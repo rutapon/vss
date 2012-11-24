@@ -214,7 +214,7 @@ namespace nVLC_Demo_WinForms
                 if (!string.IsNullOrEmpty(textBox1.Text))
                 {
                     var factory = new MediaPlayerFactory();
-                    var player = m_factory.CreatePlayer<IDiskPlayer>();
+                    var player = factory.CreatePlayer<IDiskPlayer>();
 
                     player.Events.PlayerPositionChanged += new EventHandler<MediaPlayerPositionChanged>(Events_PlayerPositionChanged);
                     player.Events.TimeChanged += new EventHandler<MediaPlayerTimeChanged>(Events_TimeChanged);

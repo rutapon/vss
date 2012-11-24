@@ -1,0 +1,4 @@
+L:\VSS Clound\vss\nvlc\LibVlcWrapper\bin\Debug\LibVlcWrapper.dll
+L:\VSS Clound\vss\nvlc\LibVlcWrapper\bin\Debug\LibVlcWrapper.pdb
+L:\VSS Clound\vss\nvlc\LibVlcWrapper\obj\Debug\LibVlcWrapper.dll
+L:\VSS Clound\vss\nvlc\LibVlcWrapper\obj\Debug\LibVlcWrapper.pdb

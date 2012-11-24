@@ -1,0 +1,4 @@
+L:\VSS Clound\vss\nvlc\Declarations\bin\Debug\Declarations.dll
+L:\VSS Clound\vss\nvlc\Declarations\bin\Debug\Declarations.pdb
+L:\VSS Clound\vss\nvlc\Declarations\obj\Debug\Declarations.dll
+L:\VSS Clound\vss\nvlc\Declarations\obj\Debug\Declarations.pdb

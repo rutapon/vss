@@ -20,12 +20,12 @@ namespace Implementation
 {
    internal class NLogger : ILogger
    {
-      NLog.Logger m_logImpl;
+       NLog.Logger m_logImpl;
 
-      public NLogger()
-      {
-         m_logImpl = NLog.LogManager.GetCurrentClassLogger();
-      }
+       public NLogger()
+       {
+           m_logImpl = NLog.LogManager.GetCurrentClassLogger();
+       }
 
       #region ILogger Members
 
