@@ -3,5 +3,6 @@
   <elements>
     <interface name="WorkerRole1:http" url="tcp://*:8080" />
     <interface name="WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" url="tcp://*:3389" />
+    <interface name="WorkerRole1:rtsp" url="tcp://*:8554" />
   </elements>
 </serviceContract>

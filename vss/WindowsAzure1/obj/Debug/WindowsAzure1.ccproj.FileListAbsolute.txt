@@ -6,13 +6,19 @@ L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\Declarations.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\httpController.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\httpController.pdb
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\Implementation.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\libstdc++-6.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\libvlc.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\libvlccore.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\LibVlcWrapper.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\lib\Declarations.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\lib\Implementation.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\lib\LibVlcWrapper.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\lib\NLog.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\Microsoft.WindowsAzure.Configuration.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\Microsoft.WindowsAzure.Diagnostics.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\Microsoft.WindowsAzure.StorageClient.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\NLog.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\obj\Release\libgcc_s_sjlj-1.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\3dnow\libmemcpy3dn_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\access\libaccess_attachment_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\access\libaccess_bd_plugin.dll
@@ -84,7 +90,6 @@ L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libaraw_
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libavcodec_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libcc_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libcdg_plugin.dll
-L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libcrystalhd_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libcvdsub_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libddummy_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libdmo_plugin.dll
@@ -99,6 +104,7 @@ L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\liblibas
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\liblibmpeg2_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\liblpcm_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libmpeg_audio_plugin.dll
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libopus_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libpng_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\libquicktime_plugin.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\plugins\codec\librawvideo_plugin.dll
@@ -310,3 +316,4 @@ L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\vlcStreammer.pdb
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\WorkerRole1.dll
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\WorkerRole1.dll.config
 L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\WorkerRole1.pdb
+L:\VSS Clound\vss\vss\WindowsAzure1\obj\Debug\WorkerRole1\_5_19_01.mp4

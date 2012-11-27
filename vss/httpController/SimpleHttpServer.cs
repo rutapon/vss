@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using vlcStreammer;
 
 // offered to the public domain for any use with no restriction
 // and also with no warranty of any kind, please enjoy. - David Jeske. 
@@ -377,6 +378,9 @@ namespace httpController
 
     public class MyHttpServer : HttpServer
     {
+        //HttpProcessor p;
+        //public string msgln { set { p.outputStream.WriteLine(value + "<br />"); } }
+
         public MyHttpServer(int port)
             : base(port)
         {
@@ -387,12 +391,77 @@ namespace httpController
             p.writeSuccess();
             p.outputStream.WriteLine("<html><body><h1>test server</h1>");
             p.outputStream.WriteLine("Current Time: " + DateTime.Now.ToString());
-            p.outputStream.WriteLine("url : {0}", p.http_url);
-
+            p.outputStream.WriteLine("url : {0}", p.http_url + "</br>");
+           
             //p.outputStream.WriteLine("<form method=post action=/form>");
             //p.outputStream.WriteLine("<input type=text name=foo value=foovalue>");
             //p.outputStream.WriteLine("<input type=submit name=bar value=barvalue>");
             //p.outputStream.WriteLine("</form>");
+
+            string[] pathArr = p.http_url.Split('/');
+            string reqMethod = pathArr[1];
+
+            string root = Path.Combine(Environment.GetEnvironmentVariable("RoleRoot") + @"\", @"approot\");
+            //string root = Path.Combine(Environment.GetEnvironmentVariable("RoleRoot") );
+
+            Microsoft.WindowsAzure.ServiceRuntime.LocalResource locRes;
+            locRes = Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetLocalResource("localStorage");
+            string localStoragePath = string.Format(locRes.RootPath);
+
+            if (reqMethod == "list")
+            {
+
+                p.outputStream.WriteLine("root is :" + root + "</br>");//msgln = "root is :" + root;
+                var files = Directory.GetFiles(root);
+                var dirs = Directory.GetDirectories(root);
+
+
+                foreach (string v in dirs)
+                {
+                    var d = v;
+                    p.outputStream.WriteLine(string.Format("<a  href=\"/{0}\">{0}</a> (dir) ", d) + "</br>");//msgln = string.Format("<a  href=\"/{0}\">{0}</a> (dir) ", d);
+                }
+
+                foreach (string v in files)
+                {
+                    FileInfo fin = new FileInfo(v);
+
+                    var f = fin.Name;
+                    p.outputStream.WriteLine(string.Format("<a href=\"/{0}\">{0}</a> (file) {1}", f, fin.Length) + "</br>");//msgln = string.Format("<a href=\"/{0}\">{0}</a> (file) {1}", f, fin.Length);
+                }
+
+                p.outputStream.WriteLine("list dir :" + localStoragePath + "</br>");//msgln = "list dir :" + localStoragePath;
+
+
+                files = Directory.GetFiles(localStoragePath);
+                dirs = Directory.GetDirectories(localStoragePath);
+
+
+                foreach (string v in dirs)
+                {
+                    var d = v;
+                    p.outputStream.WriteLine(string.Format("<a  href=\"/{0}\">{0}</a> (dir) ", d) + "</br>");//msgln = string.Format("<a  href=\"/{0}\">{0}</a> (dir) ", d);
+                }
+
+                foreach (string v in files)
+                {
+
+                    FileInfo fin = new FileInfo(v);
+
+                    var f = fin.Name;
+                    p.outputStream.WriteLine(string.Format("<a href=\"" + localStoragePath + "{0}\">{0}</a> (file) {1}", f, fin.Length) + "</br>");//msgln = string.Format("<a href=\"/{0}\">{0}</a> (file) {1}", f, fin.Length);
+                }
+
+            }
+            else if (reqMethod == "recVid")
+            {
+                p.outputStream.WriteLine("start record to " + localStoragePath + "</br>");
+                Class1.vlcSave(localStoragePath, root);
+            }
+            else if (reqMethod == "loadFile")
+            {
+                //socket.Client.Send(File.ReadAllBytes(
+            }
 
         }
 

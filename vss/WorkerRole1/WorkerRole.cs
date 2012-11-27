@@ -18,14 +18,12 @@ namespace WorkerRole1
         public override void Run()
         {
             HttpServer httpServer;
-
             httpServer = new MyHttpServer(8080);
-
             Thread thread = new Thread(new ThreadStart(httpServer.listen));
             thread.Start();
             //return 0;
 
-            Class1.vlcSave();
+            //Class1.vlcSave();
 
             // This is a sample worker implementation. Replace with your logic.
             Trace.WriteLine("WorkerRole1 entry point called", "Information");

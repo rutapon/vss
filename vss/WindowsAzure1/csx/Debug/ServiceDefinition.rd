@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzure1" generation="1" functional="0" release="0" Id="9d65527d-c78d-4a8d-8376-71f7237133b0" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzure1" generation="1" functional="0" release="0" Id="e9ced36d-41ff-4051-811c-d5e377f82414" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzure1Group" generation="1" functional="0" release="0">
       <componentports>
@@ -11,6 +11,11 @@
         <inPort name="WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" protocol="tcp">
           <inToChannel>
             <lBChannelMoniker name="/WindowsAzure1/WindowsAzure1Group/LB:WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
+          </inToChannel>
+        </inPort>
+        <inPort name="WorkerRole1:rtsp" protocol="tcp">
+          <inToChannel>
+            <lBChannelMoniker name="/WindowsAzure1/WindowsAzure1Group/LB:WorkerRole1:rtsp" />
           </inToChannel>
         </inPort>
       </componentports>
@@ -67,6 +72,11 @@
             <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1/Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </toPorts>
         </lBChannel>
+        <lBChannel name="LB:WorkerRole1:rtsp">
+          <toPorts>
+            <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1/rtsp" />
+          </toPorts>
+        </lBChannel>
         <sFSwitchChannel name="SW:WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp">
           <toPorts>
             <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1/Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" />
@@ -121,6 +131,7 @@
             <componentports>
               <inPort name="http" protocol="tcp" portRanges="8080" />
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" protocol="tcp" />
+              <inPort name="rtsp" protocol="tcp" portRanges="8554" />
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp" portRanges="3389" />
               <outPort name="WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp">
                 <outToChannel>
@@ -135,7 +146,7 @@
               <aCS name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" defaultValue="" />
               <aCS name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" defaultValue="" />
               <aCS name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" defaultValue="" />
-              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;WorkerRole1&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;WorkerRole1&quot;&gt;&lt;e name=&quot;http&quot; /&gt;&lt;e name=&quot;Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp&quot; /&gt;&lt;e name=&quot;Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput&quot; /&gt;&lt;/r&gt;&lt;/m&gt;" />
+              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;WorkerRole1&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;WorkerRole1&quot;&gt;&lt;e name=&quot;http&quot; /&gt;&lt;e name=&quot;Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp&quot; /&gt;&lt;e name=&quot;Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput&quot; /&gt;&lt;e name=&quot;rtsp&quot; /&gt;&lt;/r&gt;&lt;/m&gt;" />
             </settings>
             <resourcereferences>
               <resourceReference name="DiagnosticStore" defaultAmount="[4096,4096,4096]" defaultSticky="true" kind="Directory" />
@@ -168,16 +179,21 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="c9a32110-5947-476b-a76c-11d5d6971c80" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzure1Contract@ServiceDefinition">
+    <implementation Id="5b701288-eb94-4dce-a430-912c605e5cb1" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzure1Contract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="f9d52b92-815c-4ada-9b51-d4ce45e68ea5" ref="Microsoft.RedDog.Contract\Interface\WorkerRole1:http@ServiceDefinition">
+        <interfaceReference Id="be99d84c-8b7b-4271-bea3-17ca086f74bd" ref="Microsoft.RedDog.Contract\Interface\WorkerRole1:http@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1:http" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="abc165bd-09b3-4f7e-917e-9c0b5bc00964" ref="Microsoft.RedDog.Contract\Interface\WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
+        <interfaceReference Id="614b9b29-c985-4274-bf44-105f2d1b2b34" ref="Microsoft.RedDog.Contract\Interface\WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
+          </inPort>
+        </interfaceReference>
+        <interfaceReference Id="204fb21e-69d5-488b-9442-8f925dfb8044" ref="Microsoft.RedDog.Contract\Interface\WorkerRole1:rtsp@ServiceDefinition">
+          <inPort>
+            <inPortMoniker name="/WindowsAzure1/WindowsAzure1Group/WorkerRole1:rtsp" />
           </inPort>
         </interfaceReference>
       </interfacereferences>

@@ -8,6 +8,7 @@
     </Imports>
     <Endpoints>
       <InputEndpoint name="http" protocol="tcp" port="8080" />
+      <InputEndpoint name="rtsp" protocol="tcp" port="8554" />
     </Endpoints>
     <LocalResources>
       <LocalStorage name="localStorage" cleanOnRoleRecycle="false" sizeInMB="1024" />

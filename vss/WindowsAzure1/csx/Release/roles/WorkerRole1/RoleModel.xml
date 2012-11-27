@@ -56,7 +56,7 @@
     <Property name="Configuration" value="Release" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="N:\project\Projects\vss\WindowsAzure1\obj\Release\WorkerRole1\" />
+    <Property name="OutputDir" value="L:\VSS Clound\vss\vss\WindowsAzure1\obj\Release\WorkerRole1\" />
     <Property name="EntryPoint" value="WorkerRole1.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />

@@ -101,7 +101,6 @@ L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libaraw_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libavcodec_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libcc_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libcdg_plugin.dll
-L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libcrystalhd_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libcvdsub_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libddummy_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libdmo_plugin.dll
@@ -322,3 +321,11 @@ L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\video_output\libyuv_plugin.d
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\visualization\libgoom_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\visualization\libprojectm_plugin.dll
 L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\visualization\libvisual_plugin.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\_5_19_01.mp4
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\obj\Release\libgcc_s_sjlj-1.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\libstdc++-6.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\lib\Declarations.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\lib\Implementation.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\lib\LibVlcWrapper.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\lib\NLog.dll
+L:\VSS Clound\vss\vss\WorkerRole1\bin\Debug\plugins\codec\libopus_plugin.dll

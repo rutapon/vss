@@ -29,22 +29,40 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Declarations, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Declarations, Version=2.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Declarations.dll</HintPath>
+      <HintPath>lib\Declarations.dll</HintPath>
     </Reference>
-    <Reference Include="Implementation, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Implementation, Version=2.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Implementation.dll</HintPath>
+      <HintPath>lib\Implementation.dll</HintPath>
     </Reference>
-    <Reference Include="LibVlcWrapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LibVlcWrapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\LibVlcWrapper.dll</HintPath>
+      <HintPath>lib\LibVlcWrapper.dll</HintPath>
     </Reference>
     <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\NLog.dll</HintPath>
+      <HintPath>lib\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,22 +77,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Declarations.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Implementation.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="obj\Release\libgcc_s_sjlj-1.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="libstdc++-6.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="libvlc.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="libvlccore.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="LibVlcWrapper.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NLog.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="lib\Declarations.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="lib\Implementation.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="lib\LibVlcWrapper.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="lib\NLog.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\3dnow\libmemcpy3dn_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\access\libaccess_attachment_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\access\libaccess_bd_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
@@ -146,7 +160,6 @@
     <Content Include="plugins\codec\libavcodec_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libcc_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libcdg_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
-    <Content Include="plugins\codec\libcrystalhd_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libcvdsub_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libddummy_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libdmo_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
@@ -161,6 +174,7 @@
     <Content Include="plugins\codec\liblibmpeg2_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\liblpcm_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libmpeg_audio_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Content Include="plugins\codec\libopus_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libpng_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\libquicktime_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\codec\librawvideo_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
@@ -366,13 +380,19 @@
     <Content Include="plugins\video_output\libyuv_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\visualization\libgoom_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
     <Content Include="plugins\visualization\libprojectm_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
-    <Content Include="plugins\visualization\libvisual_plugin.dll"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+   
+	 <Content Include="plugins\visualization\libvisual_plugin.dll"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
+	
+    <Content Include="_5_19_01.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="plugins\media_library\" />
+    <None Include="plugins\plugins.dat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
